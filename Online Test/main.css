@@ -1,0 +1,157 @@
+body
+{
+overflow-x:hidden;
+width:100%;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+;
+min-height:550px;
+background-attachment:fixed;
+}
+.bg
+{
+min-height:540px;
+background-image: linear-gradient(#54109b, #d0549a);
+}
+.bg1
+{
+background:url(./image/background2.jpg);
+min-height:535px;
+}
+
+@font-face {
+   font-family: 'typo';
+    src: url('/fonts/typo.ttf');
+	}
+
+@font-face {
+   font-family: 'gothic';
+    src: url('/fonts/gothics.ttf');
+	}
+
+.panel{
+border-color:#eee;
+margin:40px;
+padding:20px;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title
+{
+font-family:'typo';
+}
+
+.header
+{
+background:#54109b;
+height:70px;
+}
+.logo
+{
+font-family:'typo';
+letter-spacing: 5px;
+font-size:35px;
+color:#f32222;
+margin:15px;
+}
+
+.title1{
+font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+
+.sub1
+{
+width:90px;
+color:#54109b;
+background:#d0549a;
+font-size:15px;
+height:35px;
+margin:20px;
+padding:10px;
+width:100px;
+}
+.sub1:hover
+{
+color: #cfc4c4;
+}
+
+.sub
+{
+width:100%;
+color: #54109b;
+background-color:#d0549a;
+font-size:20px;
+padding:2px;
+margin-top:15px;
+margin-right:20px;
+border-radius: 25px;
+}
+.sub:hover
+{
+color:#fff;
+}
+
+.footer
+{
+font-size:15px;
+text-align:center;
+border-top:1px solid;
+border-color:#323232;
+background-color:#54109b;
+}
+.footer a
+{
+margin:25px;
+color:#cfc4c4;
+text-decoration:none;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+text-decoration:none;
+color:#d15594;
+border-top:2px solid;
+border-color:#d15594;
+
+}
+
+.box
+{
+padding:9px;
+}
+hr{
+color:#000000;
+}
+.top
+{
+margin-top:20px;
+}
+.log1
+{
+font: 15px 'Ubuntu', sans-serif;
+color:#cfc4c4;
+margin-left:10px;
+}
+
+.log
+{
+margin:10px;
+margin-right:60px;
+margin-left:5px;
+color:#cfc4c4;
+text-decoration:none;
+font-size:20px;
+font-size:15px;
+}
+.log:hover
+{
+color:#d15594;
+border-top:2px solid;
+border-color:#d15594;
+text-decoration:none;
+}
